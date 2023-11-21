@@ -1,0 +1,190 @@
+
+<!--Website Complete-->
+
+<html>
+
+    <head>
+
+        <!--CSS link For Icons-->
+        <link rel="stylesheet" href="CSS Icons/all.css">
+        <!--Displayed Icon in displayed title-->
+        <link rel="icon" href="images/ESSU logo.png" type="image/x-icon">
+        <!--Displayed title-->
+        <title>School ID Form</title>
+
+    </head>
+
+    <!--Image logo-->
+    <center><img src="images/ESSU logo.png"></center>
+
+    <!--background image-->
+    <body background="images/ESSU entrance.jpg" style="background-size: cover;"></body>
+
+    <!--CSS style link-->
+    <link rel="stylesheet" href="CSS files/School ID.css">
+
+        <body>
+            <!--displayed text heading-->
+        <h1>Online School Id Registration</h1>
+        <center>
+            <!--table-->
+            <table>
+                <tr> <!--input name-->
+                    <td>
+                        <i class="fa-solid fa-user"></i> Name:
+                    </td>
+                </tr>
+                <tr>
+                    <td><div class="input-box">
+                        <input size="20" type="text" placeholder="Last Name">
+                    </td></div>
+                    <td><div class="input-box">
+                        <input size="20" type="text" placeholder="First Name">
+                    </td></div>
+                    <td><div class="input-box">
+                        <input size="20" type="text" placeholder="Middle Name">
+                    </td></div>
+                </tr>
+
+                <tr> <!--Input phone number-->
+                    <td>
+                        <i class="fa-solid fa-phone"></i>  Phone Number:
+                    </td>
+                    <td><div class="input-box">
+                        <input type="phone" placeholder="9867******">
+                    </td></div>
+                </tr>
+
+                <tr> <!--Input student number-->
+                    <td>
+                        student Number:
+                    </td>
+                    <td><div class="input-box">
+                        <input type="email" placeholder="2*-*****">
+                    </td></div>
+                </tr>
+
+                <tr> <!--input email-->
+                    <td>
+                        <i class="fa-solid fa-envelope"></i> Email:
+                    </td>
+                    <td><div class="input-box">
+                        <input type="email" placeholder="example1@gmail.com">
+                    </td></div>
+                </tr>
+
+                <tr><!--input course, year, section-->
+                    <td>
+                        Course, Year, & Section
+                    </td>
+                    <td><div class="input-box">
+                        <input type="text" placeholder="BS***">
+                    </td></div>
+                </tr>
+
+            <tr><!--input gender-->
+                <td>
+                    <i class="fa-sharp fa-solid fa-venus-mars"></i>  Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender"> <font color="white"> <font size="+2">   Male</font></font>
+                    <input type="radio" name="gender"> <font color="white">  <font size="+2">   Female</font></font>
+                </td>
+            </tr>
+
+           <tr> <!--Input date of birth-->
+                <td>
+                    Date of Birth:
+                </td>
+                <td><div class="input-date">
+                    <input type="date">
+                </td></div>
+            </tr>
+
+            <tr><!--input address-->        
+                <td>
+                    <i class="fa-solid fa-location-dot"></i> Permanent Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            
+           <tr> <!--input emergency contact-->
+                <td colspan="2">
+                    <i class="fa-solid fa-user"></i> emergency contact:
+                </td>
+            </tr>
+            <tr> <!--input name-->
+                <td>
+                    <i class="fa-solid fa-user"></i>Parents/guardian Name:
+                </td>
+            </tr>
+            <tr>
+                <td><div class="input-box">
+                    <input size="20" type="text" placeholder="Last Name">
+                </td></div>
+                <td><div class="input-box">
+                    <input size="20" type="text" placeholder="First Name">
+                </td></div>
+                <td><div class="input-box">
+                    <input size="20" type="text" placeholder="Middle Name">
+                </td></div>
+            </tr>
+            <tr>
+                <td>
+                    <i class="fa-solid fa-phone"></i> Contact number:
+                </td>
+                <td><div class="input-box">
+                    <input type="text" placeholder="0939******">
+                </td></div>
+            </tr>
+            <tr><!--insert photo-->
+                <td>
+                    Insert Photo <br> (white background <br> & School Uniform):
+                </td>
+                <center>
+                <td colspan="2">
+                    <!--Stylesheet for image preview-->
+                     <link rel="stylesheet" href="CSS files/insert photo.css">
+                     <!--figure for previewing the inserted photo-->
+                          <figure class="image-container">
+                            <!--IMG ID for javascript-->
+                            <img id="chosen-image">
+                            <!--Image file name from the inserted photo-->
+                            <figcaption id="file-name"></figcaption>
+                        </figure>
+                
+                        <input type="file" id="upload-button" accept="image/*">
+                        <!--Displayed Button-->
+                        <label for="upload-button">
+                            <i class="fas fa-upload"></i> &nbsp; Choose A Photo
+                        </label>
+                    
+                    <!--Script-->
+                    <script src="javascript/insert photo.js"></script>
+            </td>
+        </center>
+            </tr>
+          
+            <tr> <!--submit button-->
+                <!--column Span-->
+<td colspan="3">
+    <!--button for next html--><!--CLass for styling-->
+                 <center>
+        <a href="School ID Submit.html"><button CLASS="submit">SUBMIT<i class="fa-solid fa-circle-check"></i></button></a></center>
+            </td></tr>
+    </table></center>
+        </body>
+        </body>
+       
+        <!--line break-->
+        <br>
+        <br>
+
+        <!--Button for Main Html-->
+        <a href="Main Page.html"><button class="home"><i class="fa-solid fa-house"></i>Go Back to Homepage</button></a>
+
+      
+
+</html>

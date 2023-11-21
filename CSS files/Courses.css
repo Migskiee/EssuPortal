@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.fa-house{
+    padding-right: 5px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 40px;
+    margin:50px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: xx-large; 
+    font-style: italic; 
+    color: white; 
+    text-align: center;
+    outline: auto; 
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    border-radius: 20px;
+    margin: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 40px;
+}
+
+    button{
+        font-size: 20px;
+        font-weight: 200;
+        padding: 15px;
+        margin: 20px;
+        width: 250px;
+        background: #ebeef1;
+        cursor: pointer;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    
+        color: black;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+}
+button:hover{
+    transform: translateY(-10px);
+    color: white;
+    background-color: red;
+}

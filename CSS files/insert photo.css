@@ -1,0 +1,46 @@
+
+
+/*photo container where the picture will be previewed*/
+.image-container{
+    width: 60%;
+    margin: 0 auto 30px auto;
+    opacity: calc(100%);
+}
+/* elemnts of the inserted picture*/
+.image-container img{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+    opacity: calc(100%);
+    border-radius: 20px;
+}
+/*caption / insert file name */
+figcaption{
+    margin: 20px 0 30px 0;
+    text-align: center;
+    color: #2a292a;
+    background-color: white;
+    border-radius: 10px;
+    opacity: calc(100%);
+}
+input[type="file"]{
+    display: none;
+    opacity: calc(100%);
+}
+
+label{
+    display: block;
+    position: relative;
+    background-color: #025bee;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    padding: 18px 0;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+    opacity: calc(100%);
+}

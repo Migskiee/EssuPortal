@@ -1,0 +1,220 @@
+
+<!--Webpage Complete-->
+
+<html lang="en">
+
+  <HEAD><!--Page title, icon, and style sheet-->
+    <!--title of website-->
+    <TITLE> Eastern Samar State University </TITLE>
+
+    <meta charset="UTF-8" />
+    <!--Character set-->
+    <link rel="stylesheet" href="CSS Icons/all.css"><!--CSS for icons-->
+    <link rel="icon" href="images/ESSU logo.png" type="image/x-icon"><!--Displayed icon-->
+    <link rel="stylesheet" href="CSS files/Main Page.css" /><!--CSS Html-->
+    <link rel="stylesheet" href="CSS files/Image Slider.css"><!--CSS style for image slider--> 
+    <link rel="stylesheet" href="CSS files/Scroll Up button.css"><!--CSS Scroll up button--> 
+   
+
+    <!--page Background-->
+    <body background="images/ESSU campus.jpg" style="background-size: cover; background-attachment: fixed;"></body>
+    
+   </HEAD>
+
+<!--MenuBar-->
+  <body>
+    <div class="menu-bar">               <!--folder name/file name-->
+      <left> <IMG class="logo" SRC = "images/ESSU Logo & text.png" width="400"> </left>
+       
+        <!--Content on menu bar-->
+      <ul> 
+        <li><a href="Enrollment.html"><i class="fa-sharp fa-solid fa-envelope"></i>Enroll now</a></li>
+        <li><a href="Courses.html"><i class="fa-solid fa-table-list"></i>Courses</a></li>
+        <li><a href="#">Requirements <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-menu"><!--Dropdown menu-->
+                <ul>
+                  <li><a href="FirstYear Requirements.html">For First Year Students</a></li>
+                  <li><a href="Transferee Requirements.html">For Tranferee students</a></li>
+                  <li><a href="School ID.html">School ID Form</a></li>
+                </ul>
+              </div>
+              </li>
+        <li><a href="#">ESSU Campuses<i class="fas fa-caret-down"></i></a>
+
+          <!--Dropdown menu-->
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="https://web.facebook.com/essumaydolongofficial"><i class="fa-sharp fa-solid fa-house-flag"></i>Maydolong Campus</a></li>
+            <li><a href="https://web.facebook.com/EasternSamarStateUniversitySalcedoCampus"><i class="fa-sharp fa-solid fa-house-flag"></i>Salcedo Campus</a></li>
+            <li><a href="https://web.facebook.com/ESSUGUIUANOFFICIAL"><i class="fa-sharp fa-solid fa-house-flag"></i>Guiuan Campus</a></li>
+            <li><a href="https://web.facebook.com/essucanavidofficial"><i class="fa-sharp fa-solid fa-house-flag"></i>Can-Avid Campus</a></li>
+            <li><a href="https://web.facebook.com/essuartecheofficial/"><i class="fa-sharp fa-solid fa-house-flag"></i>arteche campus</a></li>
+          </ul>
+          </div>
+          </li>
+        <li><a href ="Student Page Log in.html">Student Page<i class="fa-solid fa-pager"></i></i></a></li>
+      </ul>
+    </div>
+  </body>
+
+      <!--line break-->
+<br>
+
+<body><!--Slider for latest news-->
+
+   <center><!--Slider Settings-->
+   <!--image slider start-->
+   <div class="slider">
+     <div class="slides">
+       <!--radio buttons start-->
+       <input type="radio" name="radio-btn" id="radio1">
+       <input type="radio" name="radio-btn" id="radio2">
+       <input type="radio" name="radio-btn" id="radio3">
+       <input type="radio" name="radio-btn" id="radio4">
+       <input type="radio" name="radio-btn" id="radio5">
+       <!--radio buttons end-->
+       <!--slide images start-->
+       <div class="slide first"><!--first image-->
+         <img src="images/jimenez.jpg">
+       </div>
+       <div class="slide"><!--second image-->
+         <img src="images/rhea.jpg">
+       </div>
+       <div class="slide"><!--third image-->
+         <img src="images/TOP 20 social workers.jpg">
+       </div>
+       <div class="slide"><!--fourth image-->
+         <img src="images/nurse.jpg">
+       </div>
+       <div class="slide"><!--fifth image-->
+         <img src="images/enrollment pic.jpg">
+       </div>
+       <!--slide images end-->
+       <!--automatic navigation start-->
+       <div class="navigation-auto">
+         <div class="auto-btn1"></div>
+         <div class="auto-btn2"></div>
+         <div class="auto-btn3"></div>
+         <div class="auto-btn4"></div>
+         <div class="auto-btn5"></div>
+       </div>
+       <!--automatic navigation end-->
+     </div>
+     <!--manual navigation start-->
+     <div class="navigation-manual">
+       <label for="radio1" class="manual-btn"></label>
+       <label for="radio2" class="manual-btn"></label>
+       <label for="radio3" class="manual-btn"></label>
+       <label for="radio4" class="manual-btn"></label>
+       <label for="radio5" class="manual-btn"></label>
+     </div>
+     <!--manual navigation end-->
+   </div>
+   <!--image slider end-->
+<!--JavaScript for slider-->
+   <script type="text/javascript">
+   var counter = 1;
+   setInterval(function(){
+     document.getElementById('radio' + counter).checked = true;
+     counter++;
+     if(counter > 5){
+       counter = 1;
+     }
+   }, 5000);
+   </script>
+</center>
+ </body>
+
+<br><br>
+
+<main><!--audio and video-->
+  <!--Class For Stylesheet--><!--video title-->
+<p class="CampusTour">Eastern Samar State University Campus Tour</p>
+  <!--Video-->             <!--folder name/file name-->                                  <!--folder name/file name-->
+<center><video style="border-radius: 50px;" src="media/ESSU CAMPUS TOUR AND HYMN.mp4" controls width="1150" poster="images/EASTERN-SAMAR-STATE-UNIVERSITY.jpg"></video></center>
+
+<br><br>
+
+</main>
+
+<br><br><br>
+
+<body><!--headings-->
+<!--Heading 1-->
+<h1> Welcome To Eastern Samar State University <br> <i>Essudyantes</i> </h1>
+<!--Heading 2-->
+<h2> Students Are Required To Take An Entrance Examination Before They Can Enroll To Their Desired Courses </h2>
+</body>
+<main><!--paragraphs and sections-->
+<!--Paragraphs-->          
+<p class="Req">
+  Here are the guidelines for new and transferee students that is willing to enroll in Eastern Samar State University
+</p>
+   <section><!--Sections-->
+    <section class="BOX"><!--section overall BG-->
+    <section class="Who"><!--Section left-->
+      <b>
+      Who are required to take the University Entrance Examination?
+      <br>
+      <br>☑️An incoming first year student
+      <br>
+      <br>☑️ A transfer student who have not satisfied all academic requirements <br>
+      for the first year in his/her previous college/university
+    </b>
+    </section>
+    <section class="Sub"><!--Section middle-->
+     <b>
+      <br>You may message 0951 484 3389 to set for an appointment. 
+      <br>Your text message should contain the following information:
+      <br>
+      <br>☑️ Purpose (ex. application for entrance examination schedule)
+      <br>
+      <br>☑️ Complete name
+      <br>
+      <br>☑️ Home Address
+      <br>
+      <br>☑️ Current School
+    </b>
+    </section>
+    <section class="What"><!--section right-->
+     <b>What to bring on examination day:
+      <br>
+      <br>☑️ Exam permit
+      <br>
+      <br>☑️ School ID
+      <br>
+      <br>☑️ Monggol 2 pencil
+      <br>
+      <br>☑️ Blue ballpen
+      <br>
+      <br>☑️ Snack (optional)
+     </b> 
+    </section>
+  </section>
+   </section>   
+   <p class="confirm"> <!--extra Paragraph-->
+    * A confirmation message indicating your schedule will be sent to you.
+<br>
+<br>* On your scheduled date of application, submit the required documents together with the Application Form (to be filled-up in the venue) at the Admission office located at 1st floor, ICTC Building, ESSU Main, Brgy. Maypangdan, Borongan City. Bring your own blue ballpen for filling-up forms.
+<br>
+<br>* After evaluating your documents, an Exam Permit will be issued to you indicating your schedule for Entrance Examination and other information that is deemed necessary. 
+</p>
+     
+</main>
+<section class="face"><!--FaceBook Link and icon-->
+  <p class="facebook"> For More Information Please Visit Our Facebook Page <br>
+    <br>
+  GET IN TOUCH WITH US: <br>
+  <i class="fa-solid fa-envelope"></i> info@essu.edu.ph <br>
+  <i class="fa-solid fa-envelope"></i> registrar@essu.edu.ph </p>
+  <br><!--linebreak-->
+  <!--FB link of essu and facebook icon-->                                      <!--folder name/file name-->
+  <a href="https://web.facebook.com/EasternSamarStateUniversity"><img class="FB" src="images/facebook.png"></a>
+</section> 
+<body><!--scroll up button-->
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a> 
+  <script src="javascript/Scroll Up button.js"></script><!--Script For Scroll up button-->
+</body>
+</html>

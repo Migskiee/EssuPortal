@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.fa-circle-check{
+margin-left: 5px;
+}
+
+.fa-house{
+    margin-right: 5px;
+}
+
+.fa-file-import{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/*heading style*/
+h1{
+    background-color: black;
+    opacity: calc(75%);
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    margin: 70px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/*table style*/
+table{
+    background-color: rgba(0, 0, 0, 0.795);
+    outline: auto;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 40px rgba(0,0,0,0.5);
+}
+
+td{
+    font-size: 25px;
+    color: white; 
+    
+}
+
+.input-box input{
+    font-size: large;
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #ccc;}
+
+    tr{
+        height: 50px;
+    }
+
+    button.home{
+        font-size: 20px;
+        font-weight: 200;
+        padding: 15px;
+        margin: 15px;
+        width: 350px;
+        background: #ebeef1;
+        cursor: pointer;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+        color: black;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+    button:hover{
+        transform: translateY(-10px);
+        color: white;
+        background-color: red;
+    }
+    
+
+    button.submit{
+        font-size: 20px;
+        font-weight: 200;
+        padding: 5px;
+        margin: 15px;
+        width: 250px;
+        background: #ebeef1;
+        cursor: pointer;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+        color: black;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+    button.submit:hover{
+        transform: translateY(-5px);
+        color: white;
+        background-color: green;
+    }
+    
+    .input-date input{
+        width: 200px;
+        height: 40px;
+        font-size: large;
+        letter-spacing: 5px;
+        border-radius: 20px;
+        text-align: center;
+    }

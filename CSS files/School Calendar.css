@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    opacity: calc(75%);
+    font-size: 40px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: white;
+    margin: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 5px;
+    border-radius: 50px;
+}
+ul{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 40px;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 40px;
+}
+
+
+button.list{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    margin: 20px;
+    width: 250px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    color: black;
+    
+    /*Transitions/animiations*/
+    transition-property: all 1.0s ease;
+   
+}
+button.list:hover{
+    transform: translateY(-3px);
+    color: white;
+    background-color: green;
+}
+
+
+button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+button:hover{
+    transform: translateY(-10px);
+    color: white;
+    background-color: red;
+}
+
+th{
+    font-size: 30px;
+}
+th.head{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 30px;
+}
+td{
+    font-size: 25px;
+    padding: 15px;
+}
+tr.head{
+    background-color: grey;
+}
+tr{
+    background-color: white;
+    height: 50px;
+}
+td.left{
+    font-size: 25px;
+    border-bottom-left-radius: 40px;
+}
+td.right{
+    font-size: 25px;
+    border-bottom-right-radius: 40px;
+}
+table{
+    border-radius: 40px;
+    background-color: white;
+    margin: 30px;
+}

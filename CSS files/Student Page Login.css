@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+button.log{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    color: black;
+    /*animation/Transition*/
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+button.log:hover{
+    transform: translateY(-10px);
+    color: white;
+    background-color: green;
+}
+
+button.home{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    color: black;
+    /*animation/Transition*/
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+button.home:hover{
+    transform: translateY(-10px);
+    color: white;
+    background-color: red;
+}
+
+
+.Form-box{
+    border-radius: 50px;
+    width: 500px;
+    height: 450px;
+    background: rgba(0,0,0,0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.H1{
+    margin-bottom: 40px;
+}
+
+
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;  
+}
+
+.input-box input{
+    font-size: large;
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #ccc;
+}
+
+.submit-button{
+    position: center;
+    outline: 4px;
+    font-family: sans-serif;
+}
+
+/*icon*/
+.fa-solid{
+    padding-right: 5px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fa-house{
+    margin-left: 5px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.829);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 40px;
+    outline: auto;
+    outline-color: green;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+button:hover{
+    transform: translateY(-5px);
+    color: white;
+    background-color: red;
+}

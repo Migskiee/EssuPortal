@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    background-color: black;
+    opacity: calc(75%);
+}
+
+button{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 12px;
+    margin: 15px;
+    width: 350px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px -10px -1px rgba(255, 255, 255, 0,70);
+    color: black;
+    /*animation/Transition*/
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    color: white;
+    background-color: red;
+}
